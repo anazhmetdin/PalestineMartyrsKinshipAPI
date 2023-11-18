@@ -1,5 +1,4 @@
 Django==4.2.7
 neo4django==0.1.7
-/wheels/arabictransliterator-0.3-py3-none-any.whl
-mishkal==0.4.1
 djangorestframework==3.14.0
+django-cors-headers==4.3.1

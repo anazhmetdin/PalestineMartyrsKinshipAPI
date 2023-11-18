@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from Romanizer.views import RomanizerView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('romanizer', RomanizerView.as_view(), name='Romanizer'),
 ]
